@@ -17,14 +17,51 @@
   font-weight: <weight>;
   font-style: normal;
 }*/
-h1 {
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.hero h1 {
+  color: black;
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
-  font-weight: 500;
+  font-weight: 800;
   font-style: normal;
+  font-size: 96px;
 }
-p {
+.hero h2 {
+  color: black;
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  line-height: 2;
+  font-size: 24px;
+}
+.hero p {
+  color: #272142;
   font-family: "Poppins", sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   font-style: normal;
+  font-size: 35px;
+}
+.hero {
+  background-color: #f9f7fe;
+  text-align: center;
+  padding: 160px 20px;
+}
+.contact-button {
+  margin-top: 70px;
+}
+.button-branding {
+  cursor: pointer;
+  background: #6c63ff;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  padding: 15px 30px;
+  text-decoration: none;
+}
+.button-branding:hover {
+  color: rgb(9, 9, 122);
 }
