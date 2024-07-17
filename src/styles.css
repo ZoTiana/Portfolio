@@ -112,9 +112,11 @@ p {
   }
   .last-button {
     position: relative;
-    top: 30px;
+    top: 10px;
   }
-
+  .customize-button {
+    margin-bottom: 30px;
+  }
   .project-description {
     padding: 20px 15px;
   }
